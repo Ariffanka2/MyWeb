@@ -1,0 +1,68 @@
+body{
+  background-image: url('assets/bck.jpg');
+  color: white;
+}
+nav{
+	background-color: #3F4E4F;
+	width: 100%;
+	height: 2rem;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	padding-bottom: 0.5rem;
+	border: 1px solid cyan;
+}
+nav a{
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	color: grey;
+}
+.lay{
+	margin-top: 5rem;
+}
+.con{
+	width: 500px;
+	margin:auto;
+	background-color: transparent;
+	height: 600px;
+	color: white;
+	border: 1px solid cyan;
+	border-radius: 3rem;
+}
+h1{
+	background-color: cyan;
+	color: black;
+	height: 3rem;
+	border-radius: 0.9rem;
+}
+h1,h2{
+	text-align: center;
+}
+table{
+	text-align: center;
+	margin: auto;
+	height: 300px;
+	justify-content: center;
+	background-color: transparent;
+	border-radius: 5%;
+}
+input{
+	width: 20rem;
+	height: 1.5rem;
+	border-radius: 3rem;
+}
+input:hover{
+	border: 1px solid cyan;
+}
+button{
+	border-radius: 3rem;
+	width: 5rem;
+	height: 2rem;
+}
+button:hover{
+	border: 1px solid cyan;
+}
